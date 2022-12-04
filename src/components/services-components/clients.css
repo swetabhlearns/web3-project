@@ -1,0 +1,18 @@
+.clients-container {
+  width: 1482px;
+  height: 168px;
+  font-family: "Jost";
+}
+
+.client-logo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 147px);
+  place-items: center;
+  place-content: center;
+  gap: 80px;
+  width: 1482px;
+  height: 42px;
+}
+.client-title-container {
+  margin: 10px 9%;
+}

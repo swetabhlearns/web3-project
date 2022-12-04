@@ -1,0 +1,77 @@
+.portfolio-container {
+  display: grid;
+  grid-template-rows: 200px 420px 80px;
+  background: #15306f;
+}
+.portfolio-btn {
+  box-shadow: 3px 3px 6px #00000029;
+  border-radius: 28px;
+  opacity: 1;
+  width: 115px;
+  height: 38px;
+  background: transparent;
+  border: 1px solid #e3e3e3;
+  margin: 15px;
+  color: #fff;
+}
+.active {
+  background: #2d83ee 0% 0% no-repeat padding-box;
+}
+.portfolio-container .title-large {
+  text-align: center;
+  font: normal normal 500 32px/64px Jost;
+  letter-spacing: -0.71px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 0 20px;
+}
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-carousel {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 350px) 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+}
+.carousel-img-title {
+  text-align: left;
+  font: normal normal 500 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding-bottom: 10px;
+}
+.carousel-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.carousel-btn .secondary-btn {
+  width: 170px;
+  height: 48px;
+  border: 1px solid #ffffff4b;
+  border-radius: 6px;
+  opacity: 1;
+}
+.carousel-object {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.portfolio-last-btn {
+  margin: auto;
+}
+
+.portfolio-last-btn .secondary-btn {
+  width: 170px;
+  height: 48px;
+  border: 1px solid #ffffff4b;
+  border-radius: 6px;
+  opacity: 1;
+}

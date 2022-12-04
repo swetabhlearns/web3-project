@@ -1,0 +1,57 @@
+.background-container {
+  padding: 80px;
+}
+
+.invitation-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #2d83ee;
+  width: 1255px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.invitation-text-container {
+  width: 504px;
+  height: 353px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+.invitation-text-container .title-large {
+  width: 448px;
+  height: 130px;
+  text-align: left;
+  font: normal normal 500 45px/65px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 100%;
+}
+
+.invitation-small-text {
+  width: 504px;
+  height: 46px;
+  text-align: left;
+  font: normal normal 400 16px/23px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.invitation-img-container {
+  display: grid;
+  width: 100%;
+  place-items: center;
+}
+.invitation-img-container img {
+  width: 475px;
+  height: 463px;
+}
+.invitation-btn {
+  width: 100%;
+}
+.invitation-btn .primary-btn {
+  background: white;
+  color: black;
+}

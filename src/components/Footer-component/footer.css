@@ -1,0 +1,84 @@
+.footer {
+  background: #28293e;
+}
+
+.company-details {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  height: 200px;
+  place-items: center;
+}
+.quillhash-branding {
+  text-align: left;
+  font: normal normal 500 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding-bottom: 10px;
+}
+.parent-company {
+  width: 248px;
+}
+.parent-company,
+.explore-container,
+.services-container,
+.contact-us-container {
+  height: 100%;
+  padding-top: 10px;
+}
+.branding-img-container {
+  padding-bottom: 10px;
+}
+.branding-text {
+  text-align: left;
+  font: normal normal 400 18px/28px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.contact-us-text {
+  width: 298px;
+  height: 95px;
+  text-align: left;
+  font: normal normal 400 18px/23px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding-bottom: 5px;
+}
+em {
+  width: 298px;
+  height: 26px;
+  text-align: left;
+  text-decoration: underline;
+  font: italic normal 400 18px/23px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.journey-container {
+  padding: 25px 0;
+  display: grid;
+  grid-template-rows: 150px;
+  place-items: center;
+}
+.social-logos-container {
+  display: flex;
+  gap: 10px;
+}
+.join-journey .quillhash-branding {
+  text-align: center;
+}
+.trade-mark {
+  display: grid;
+  place-items: center;
+  font: normal normal normal 16px/32px Jost;
+  letter-spacing: 0px;
+  color: #dfdfdf;
+  opacity: 1;
+}

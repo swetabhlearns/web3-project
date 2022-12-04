@@ -1,0 +1,11 @@
+.security-container {
+  display: grid;
+  grid-template-rows: 50px 80px 300px;
+  place-items: center;
+}
+.security-img-container {
+  margin: 0 150px;
+}
+.security-img-container img {
+  width: 100%;
+}

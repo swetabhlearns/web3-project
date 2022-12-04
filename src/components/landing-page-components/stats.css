@@ -1,0 +1,27 @@
+.stats-container {
+  height: 73px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  gap: 150px;
+  justify-content: space-around;
+  padding: 120px 139px;
+}
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.stat-amt {
+  text-align: center;
+  font: normal normal 600 50px/73px Jost;
+  letter-spacing: 0px;
+  color: #2d83ee;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.stat-amt-desc {
+  text-align: left;
+  font: normal normal medium 22px/32px Jost;
+  letter-spacing: 0.22px;
+  color: #ffffff;
+}

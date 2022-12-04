@@ -1,0 +1,49 @@
+.blog-container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 500px;
+  place-items: center;
+  padding-top: 50px;
+}
+.blog-header-sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogs-container {
+  grid-column: 1/4;
+  width: 94%;
+}
+
+.blog-header-sub-container .primary-btn {
+  margin: 0;
+}
+.blog-container {
+  font-family: "Jost";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 420px;
+  opacity: 1;
+  margin: 40px 0px;
+}
+.blog-container .blog-img-container {
+  width: 370px;
+  height: 224px;
+}
+
+.blog-title {
+  width: 305px;
+  height: 64px;
+  text-align: left;
+  font: normal normal 500 22px/32px Jost;
+  letter-spacing: 0px;
+  color: rgba(45, 131, 238, 1);
+  opacity: 1;
+  width: 100%;
+}
+.client-detail p {
+  padding: 10px 0;
+}

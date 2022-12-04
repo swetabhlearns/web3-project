@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Nunito:wght@400;500&family=Outfit:wght@400;500;600&display=swap");
+
+.hero {
+  width: 752px;
+  height: 472px;
+  margin-top: 192px;
+  margin-left: 274px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-text {
+  text-align: left;
+  font: normal normal normal 60px/87px Jost;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.small-text {
+  text-align: left;
+  font: normal normal normal 32px/46px Jost;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.hero-btn,
+.primary-btn {
+  margin-right: 48px;
+}

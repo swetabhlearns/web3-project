@@ -1,0 +1,36 @@
+.service-container {
+  display: grid;
+  grid-template-columns: 597px 472px;
+  grid-template-rows: 550px 400px 500px;
+  place-items: center;
+  place-content: center;
+  font-family: "Jost";
+}
+
+.service-container .service-desc-container > p:nth-child(2) {
+  padding-top: 15px;
+}
+.service-container .service-desc-container {
+  padding-bottom: 35px;
+
+  text-align: left;
+  font: normal normal normal 18px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+  opacity: 1;
+}
+.service-btn-container {
+  padding-bottom: 110px;
+}
+.service-audit-img-container img {
+  width: 497px;
+  height: 409px;
+}
+.blockchain-img-container img {
+  width: 326px;
+  height: 326px;
+}
+.due-dilligence-img-container img {
+  width: 471px;
+  height: 471px;
+}
