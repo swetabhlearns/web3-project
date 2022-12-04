@@ -51,6 +51,9 @@
   width: 100%;
   justify-content: space-between;
 }
+.carousel-btn-arrow {
+  cursor: pointer;
+}
 .carousel-btn .secondary-btn {
   width: 170px;
   height: 48px;

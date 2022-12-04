@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import { FcNext, FcPrevious } from "react-icons/fc";
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,9 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="portfolio-carousel">
-        <div className="carousel-btn-arrow">Button</div>
+        <div className="carousel-btn-arrow">
+          <FcPrevious />{" "}
+        </div>
         <div className="carousel-object">
           <div className="carousel-img-container">
             <img src="assets/images/carousel-img.png" alt="carousel-img" />
@@ -49,7 +52,9 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="carousel-btn-arrow">Button</div>
+        <div className="carousel-btn-arrow">
+          <FcNext />
+        </div>
       </div>
       <div className="portfolio-last-btn">
         <button className="secondary-btn"> BUTTON</button>
